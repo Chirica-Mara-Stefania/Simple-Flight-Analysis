@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Pane prefHeight="400.0" prefWidth="710.0">
+            <children>
+                <ListView fx:id="listView" layoutX="21.0" layoutY="18.0" onMouseClicked="#listClicked" prefHeight="364.0" prefWidth="392.0" />
+                <ComboBox fx:id="comboBox" layoutX="490.0" layoutY="48.0" onAction="#selectDescription" prefHeight="28.0" prefWidth="186.0" promptText="Select description" />
+                <TextField fx:id="textField" layoutX="490.0" layoutY="142.0" prefHeight="26.0" prefWidth="186.0" promptText="Search for description hours" />
+                <Button fx:id="button" layoutX="490.0" layoutY="200.0" mnemonicParsing="false" onAction="#calculate" text="Calculate" />
+                <Button fx:id="refreshButton" layoutX="492.0" layoutY="345.0" mnemonicParsing="false" onAction="#refresh" text="Refresh databse" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
