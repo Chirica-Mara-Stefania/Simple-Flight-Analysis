@@ -1,46 +1,33 @@
-# Simple flight conditions analysis
 
-## Database:
-### 1.Stores:
+# Sudoku game
 
- - The location and time information for each flight
- - The rain probability over the flight (approx.)
- - A short description of the weather (atmosphere, pressure, wind speed and direction etc.)
+## Short description:
+>  This is a simple sudoku game, with a minimalist gui, made using the pygame package.
 
-### 2.Allows:
+### 2.Solver:
 
- - Adding a new element (type: Flight obj.)
- - Update flight's rain probability and description by its departure and arrival hours 
- - Get all the flight information
+ - Solves the current board introduced in the code by using backtracking (a technique based on algorithm to solve problem. It uses recursive calling to find the solution by building a solution step by step increasing values with time.)
 
 ## Graphic Interface actions:
 
- - Get all the flight information in a list view
- - Filter the flights by their weather description
- - Search for a weather description and get the number of hours with that kind of weather
- - Click an element of the list view and update its rain probability and description
+ - Add a new number to the board;
+ - Update and verify the board by pressing ==enter==;
+ - Will let you know if the imput is wrong by showing a red 'X' everytime the board is verified;
+ - Tracks the time until the game is finished correctly;
 
-## __________________________
+### Python
 
-### Java
-
- - Classes and objects
- - exceptions
- - Java Database Connectivity
- - javaFX
- - streams
-
-### SQLite
-
- - Create, Update table
- - Get elements from the table
+ - Functions
+ - Working with files
+ - pygame package
 
 ### GUI
 
- - Staging
- - ListView, Labels, Windows, SearchBox, ComboBox, TextField, TextArea
-
-## __________________________
+ - time formating
+ - windows
+ - drawing
+ - key events
+ - mouse events
 
 ### Git & Git workflow
 
